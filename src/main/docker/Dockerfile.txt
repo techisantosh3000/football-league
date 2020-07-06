@@ -1,0 +1,7 @@
+FROM dockerfile/java:oracle-java8
+
+VOLUME /tmp
+ADD football-league.jar /opt/football-league/
+EXPOSE 8080
+WORKDIR /opt/football-league/
+CMD ["java", "-Djava.security.egd=file:/dev/./urandom", "-Xms512m", "-Xmx1g", "-jar", "football-league.jar"]

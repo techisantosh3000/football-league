@@ -1,0 +1,16 @@
+com/santosh/dto/TeamStandingDto.class
+com/santosh/log/aspect/LoggingAspect.class
+com/santosh/log/annotation/Trace.class
+com/santosh/exception/BadRequestException.class
+com/santosh/config/WebConfig.class
+com/santosh/client/TeamStandingRestClient.class
+com/santosh/log/eventtype/LogEventType.class
+com/santosh/model/Leagues.class
+com/santosh/controller/FootBallStandingController.class
+com/santosh/model/TeamStanding.class
+com/santosh/exception/RestApiError.class
+com/santosh/App.class
+com/santosh/model/Country.class
+com/santosh/advice/ExceptionControllerAdvice.class
+com/santosh/service/TeamStandingService.class
+com/santosh/model/TeamStandingRequest.class
